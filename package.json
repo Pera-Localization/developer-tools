@@ -1,0 +1,21 @@
+{
+  "name": "@peraglot-labs/developer-tools",
+  "version": "0.0.1",
+  "description": "This is an optional set of tools to assist with the [Pera Localization](https://github.com/apps/pera-localization) integration. See [this example](https://github.com/Pera-Localization/i18n-example) for usage.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "peraglot"
+  ],
+  "author": "Pera Labs",
+  "license": "MIT",
+  "types": "./dist/index.d.ts"
+}

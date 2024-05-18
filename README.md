@@ -1,0 +1,1 @@
+This is an optional set of tools to assist with the [Pera Localization](https://github.com/apps/pera-localization) integration. See [this example](https://github.com/Pera-Localization/i18n-example) for usage.
